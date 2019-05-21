@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:orientation="vertical">
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" android:layout_weight="1"/>
+    <TextView
+            android:text="INDEX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/element_index" android:layout_weight="1"
+            android:textAlignment="textEnd" android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+            android:text="ФИО"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/element_name" android:layout_weight="1"
+            android:textAlignment="textEnd" android:textSize="24sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/design_default_color_primary_dark"/>
+    <TextView
+            android:text="Дата создания"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/element_date" android:layout_weight="1"
+            android:textAlignment="textEnd" android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display4" android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" android:layout_weight="1" android:background="@color/colorAccent"/>
+</LinearLayout>

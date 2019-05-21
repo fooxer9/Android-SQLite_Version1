@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StudDataBase</string>
+    <string name="magic">Свершилась магия! Последняя запись изменена</string>
+    <string name="add">Добавлена новая запись</string>
+</resources>
